@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #fff;
+}
+
+.subtitle{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+/* ヘッダー */
+header{
+    height: 100px;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+}
+
+.navbar-toggler{
+    z-index: 99;
+}
+
+.header-title{
+    font-size: 45px;
+}
+
+.header-item{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.navbar-expand-lg{
+    background-color: rgba(8, 30, 5, 0.55);
+}
+
+.navbar-toggler{
+    background-color: #fff;
+    color: #333
+}
+
+/* トップ */
+.top{
+    background-image: url(./pon-style-photos/マスクグループ\ 3.png);
+    height: 700px;
+    background-size: cover;
+}
+
+.top-container{
+    position: relative;
+    height: 750px;
+}
+
+.top-text{
+    font-family: 'RocknRoll One', sans-serif;
+    position: absolute;
+    text-shadow: 1px 1px 2px, 0 0 1em #333, 0 0 0.2em #333;
+    top: 10rem;
+    font-size: 6rem;
+}
+
+/* アバウト */
+.about-div{
+    text-align: left;
+}
+
+.text-black{
+    color: #333;
+}
+
+.about-image{
+    text-align: center;
+}
+
+.pon{
+    width:250px;
+    height: 265px;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.subsubtitle{
+    font-size: 50px;
+}
+
+.about-text{
+    font-size: 20px;
+    line-height: 1.75;
+    font-family: sans-serif;
+}
+
+/* スキルズ */
+.skills{
+    background-color: #6CA159;
+}
+
+.progress-bar{
+    background-color: rgba(8, 30, 5, 0.85);
+    font-size: 20px;
+}
+/* フォト */
+.photos{
+    color: #333;
+}
+
+.carousel{
+    width: 75%;
+}
+
+/* 問い合わせ */
+.contact{
+    background-size: cover;
+    opacity:0.9;
+    background-color:#6CA159;
+}
+
+.twitter-icon:hover{
+    opacity: 1.5;
+    background-color: #DBDBDB;
+    transition: all  0.3s ease;
+    
+}
+
+.fab{
+    background-color: #fff;
+    padding:40px;
+    border-radius: 50%;
+}
+
+a{
+    display: block;
+}
+
+.contact-text{
+    font-family: sans-serif;
+}
+
+/* フッター */
+footer{
+    margin: 0;
+    background-color: rgba(8, 30, 5, 0.85);
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+@media(max-width: 699px){
+    .subtitle{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+
+    /* ヘッダー */
+    .header-title{
+        font-size: 25px;
+    }
+
+    header{
+        height: 60px;
+    }
+
+    .header-item{
+        font-size: 25px;
+    }
+
+    /* トップ */
+
+    .top-text{
+        font-size: 75px;
+    }
+
+    /* アバウト */
+    .about-div{
+        text-align: center;
+    }
+
+    .subsubtitle{
+        font-size: 30px;
+    }
+
+    .about-image{
+        margin:0 10%;
+    }
+
+    .about-text{
+        font-size: 13px;
+        margin: 0 20px;
+    }
+
+    .pon{
+        width:200px;
+        height: 215px;
+        margin-top: 20px;
+    }
+
+    /* スキル */
+    .skills{
+        padding: 0 20px;
+    }
+
+    .progress-bar{
+        font-size: 18px;
+    }
+
+    .skills h3{
+        font-size: 20px;;
+    }
+
+    .PHP{
+        font-size: 10px;
+    }
+
+    /* フォト */
+
+    .carousel{
+        width: 100%;
+    }
+
+    /* コンタクト */
+    .contact-text{
+        margin:0 20px;
+    }
+}
+
+@media(max-width: 353px){
+
+    .top-text{
+        font-size: 55px;
+    }
+
+    .about-text{
+        font-size: 13px;
+        margin: 0 15px;
+    }
+
+    .contact-text{
+        margin:0 15px;
+    }
+
+    .skills{
+        padding: 0 15px;
+    }
+}
